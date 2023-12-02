@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments_Prop.notifications.NotificationsFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="352dp"
+        android:clickable="true"
+        tools:ignore="MissingConstraints">
+
+        <!-- Línea superior -->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentTop="true"
+            android:background="#000000" />
+
+        <!-- Línea inferior -->
+        <View
+            android:id="@+id/divider_bottom3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="495dp"
+        android:clickable="true"
+        tools:ignore="MissingConstraints">
+        <!-- Línea superior -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentTop="true"
+            android:background="#000000" />
+
+
+        <!-- Línea inferior -->
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="397dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="20dp"
+            android:text="Modo Oscuro"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/divider_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlAddFT"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="422dp"
+        android:clickable="true"
+        tools:ignore="MissingConstraints">
+        <!-- Línea superior -->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentTop="true"
+            android:background="#000000" />
+
+        <!-- Línea inferior -->
+
+        <TextView
+            android:id="@+id/txtCerrarSesion"
+            android:layout_width="395dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="26dp"
+            android:text="Cerrar Sesión"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/divider_bottom2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="168dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="564dp"
+        android:background="#D3D3D3"
+        android:clickable="true"
+        tools:ignore="MissingConstraints">
+
+        <!-- Línea superior -->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentTop="true"
+            android:background="#000000" />
+
+        <!-- Línea inferior -->
+
+        <TextView
+            android:id="@+id/txtTitleConfig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="93dp"
+            android:layout_marginBottom="66dp"
+            android:text="Configuración"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/divider_bottom4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000" />
+    </RelativeLayout>
+
+</RelativeLayout>
